@@ -366,6 +366,11 @@ body.shots-in .memory-shot {
     opacity: 0.82;
   }
 
+  .memory-print {
+    width: 84%;
+    padding: 4px 4px 16px;
+  }
+
   .section-intro .shot-1 {
     top: 2%;
     right: 5%;
