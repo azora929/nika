@@ -1,10 +1,11 @@
 * {margin:0; padding:0; box-sizing:border-box;}
 html {
-  background: #ff9a9e;
+  background-color: #ff9a9e;
 }
 body {
   font-family: 'Montserrat', sans-serif;
   min-height: 100dvh;
+  background-color: #ff9a9e;
   background: linear-gradient(135deg, #ff9a9e, #fad0c4);
   overflow-x: hidden;
   color: #fff;
@@ -116,7 +117,7 @@ p { font-size: clamp(2rem, 5.2vw, 2.4rem); max-width: 1000px; line-height: 1.45;
 /* MEMORY SHOTS */
 .memory-shot {
   position: absolute;
-  width: clamp(108px, 13.2vw, 190px);
+  width: clamp(122px, 15vw, 220px);
   pointer-events: none;
   z-index: 2;
   --rot: 0deg;
@@ -353,7 +354,7 @@ body.shots-in .memory-shot {
   }
 
   .memory-shot {
-    width: clamp(72px, 20vw, 110px);
+    width: clamp(79px, 22vw, 121px);
     opacity: 0.88;
   }
 
