@@ -367,27 +367,27 @@ body.shots-in .memory-shot {
   }
 
   .section-intro .shot-1 {
-    top: 4%;
-    right: 6%;
+    top: 2%;
+    right: 5%;
     --rot: 18deg;
   }
 
   .section-intro .shot-2 {
     left: 6%;
-    bottom: 6%;
-    --rot: -12deg;
+    bottom: 2%;
+    --rot: -24deg;
   }
 
   .section-love .shot-3 {
-    top: 4%;
-    left: 8%;
-    --rot: -14deg;
+    top: 1%;
+    left: 59%;
+    --rot: 20deg;
   }
 
   .section-love .shot-4 {
-    right: 6%;
-    bottom: 5%;
-    --rot: 10deg;
+    right: 53%;
+    bottom: -2%;
+    --rot: -10deg;
   }
 
   .section-final .shot-5 {
