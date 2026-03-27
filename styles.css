@@ -332,7 +332,7 @@ body.shots-in .memory-shot {
 @media (max-width: 640px) {
   section {
     min-height: 78vh;
-    padding: 46px 22px 36px;
+    padding: 52px 20px 42px;
   }
 
   h1 {
@@ -343,7 +343,7 @@ body.shots-in .memory-shot {
   p {
     font-size: clamp(1.15rem, 4.9vw, 1.5rem);
     line-height: 1.5;
-    max-width: 82vw;
+    max-width: 72vw;
     margin-bottom: 10px;
   }
 
@@ -353,42 +353,49 @@ body.shots-in .memory-shot {
     margin-top: 14px;
   }
 
+  section > h1,
+  section > p,
+  section > .btn {
+    max-width: 72vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .memory-shot {
-    width: clamp(79px, 22vw, 121px);
-    opacity: 0.88;
+    width: clamp(72px, 18vw, 102px);
+    opacity: 0.82;
   }
 
   .section-intro .shot-1 {
-    top: 6%;
-    right: 8%;
+    top: 4%;
+    right: 6%;
     --rot: 18deg;
   }
 
   .section-intro .shot-2 {
     left: 6%;
-    bottom: 14%;
-    --rot: -14deg;
+    bottom: 6%;
+    --rot: -12deg;
   }
 
   .section-love .shot-3 {
-    top: 8%;
+    top: 4%;
     left: 8%;
-    --rot: -20deg;
+    --rot: -14deg;
   }
 
   .section-love .shot-4 {
-    right: 7%;
-    bottom: 10%;
+    right: 6%;
+    bottom: 5%;
     --rot: 10deg;
   }
 
   .section-final .shot-5 {
-    top: auto;
-    bottom: 8%;
-    right: 8%;
-    --rot: 14deg;
-    --start-x: 74vw;
-    --start-y: 68vh;
+    top: 4%;
+    right: 7%;
+    --rot: 12deg;
+    --start-x: 76vw;
+    --start-y: -64vh;
   }
 
   .preloader-heart {
