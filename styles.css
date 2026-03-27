@@ -238,6 +238,15 @@ body.shots-in .memory-shot {
   --start-y: -62vh;
 }
 
+.section-final .shot-6 {
+  left: 8%;
+  bottom: 8%;
+  --rot: -14deg;
+  --delay: 1.35s;
+  --start-x: -82vw;
+  --start-y: 70vh;
+}
+
 .bg-shape {
   position: fixed;
   z-index: 0;
@@ -401,6 +410,14 @@ body.shots-in .memory-shot {
     --rot: 12deg;
     --start-x: 76vw;
     --start-y: -64vh;
+  }
+
+  .section-final .shot-6 {
+    left: 7%;
+    bottom: 4%;
+    --rot: -16deg;
+    --start-x: -74vw;
+    --start-y: 64vh;
   }
 
   .preloader-heart {
